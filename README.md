@@ -1,10 +1,10 @@
-# 🚀 Turbine Stress Forecasting & Estimation Pipeline
+# Turbine Stress Forecasting & Estimation Pipeline
 
 터빈 스트레스 단일 추정(**TBN STRESS**) 및 다단계 미래 예측(**TBN LA STRESS**)을 위한 시계열 ML 파이프라인 시스템입니다.
 
 ---
 
-## 📌 주요 특징 (Key Features)
+## Key Features
 
 - **다중 타겟/작업 지원**:
   - `TBN STRESS`: 현재 시점 단일 추정 (Single-point Estimation)
@@ -16,7 +16,7 @@
 
 ---
 
-## 🛠️ 프로젝트 구조 (Directory Structure)
+## Directory Structure
 
 ```text
 ├── data/
@@ -44,7 +44,7 @@
 ```
 ---
 
-## ⚙️ 사용법 (Usage)
+## Usage
 ### 1. 가상환경 생성 및 라이브러리 설치
 ```bash
 python -m venv venv
@@ -57,11 +57,15 @@ pip install =r requirements.txt
 python main.py --turbine HP --part surf --model_name lgb --task_type LA_multi
 ```
 
-## 📊결과 검증 및 저장
+---
+
+## Validation & Saving
 - **추론 메트릭**: `results/` 폴더 내에 Horizon별로 MAE, RMSE 메트릭이 포함된 CSV 파일 저장
 - **시각화 결과**: 실제 TBN STRESS vs 모델 예측값 시계열 그래프 생성 (.png)
 
-## 🔧 주요 명령어 옵션 (CLI Arguments)
+---
+
+## CLI Arguments
 
 | 옵션 (Argument) | 타입 (Type) | 기본값 (Default) | 선택 가능 값 (Choices) | 설명 (Description) |
 | :--- | :--- | :--- | :--- | :--- |
