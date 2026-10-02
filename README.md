@@ -67,8 +67,8 @@ python main.py --turbine HP --part surf --model_name lgb --task_type LA_multi
 | :--- | :--- | :--- | :--- | :--- |
 | `--turbine` | `str` | `RH_IN` | `HP`, `RH_IN`, `RH_OUT` | 대상 터빈 영역 |
 | `--part` | `str` | `bore` | `bore`, `surf` | 대상 터빈 부위 |
-| `--n_estimators` | `int` | `1000` | 양의 정수 | LightGBM 트리의 최대 개수 |
-| `--learning_rate` | `float` | `0.03` | 양의 실수 | LightGBM 모델 학습률 |
+| `--n_estimators` | `int` | `10000` | 양의 정수 | LightGBM 트리의 최대 개수 |
+| `--learning_rate` | `float` | `0.01` | 양의 실수 | LightGBM 모델 학습률 |
 | `--random_state` | `int` | `42` | 정수 | 재현성을 위한 난수 고정 시드값 |
 | `--model_name` | `str` | `lgb` | `lgb`, `linear` | 모델 종류 |
 | `--task_type` | `str` | `LA_multi` | `single`, `LA_multi` | TBN STRESS 또는 TBN LA STRESS |
