@@ -49,7 +49,7 @@
 ```bash
 python -m venv venv
 source venv\Scripts\activate
-pip install =r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 2. 파이프라인 실행
