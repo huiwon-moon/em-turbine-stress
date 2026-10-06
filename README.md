@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ### 2. 파이프라인 실행
 ```bash
-python main.py --turbine HP --part surf --model_name lgb --task_type LA_multi
+python main.py --turbine HP --part surf --model_name lgbm --task_type LA_multi
 ```
 
 ---
