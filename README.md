@@ -74,5 +74,5 @@ python main.py --turbine HP --part surf --model_name lgb --task_type LA_multi
 | `--n_estimators` | `int` | `10000` | 양의 정수 | LightGBM 트리의 최대 개수 |
 | `--learning_rate` | `float` | `0.01` | 양의 실수 | LightGBM 모델 학습률 |
 | `--random_state` | `int` | `42` | 정수 | 재현성을 위한 난수 고정 시드값 |
-| `--model_name` | `str` | `lgb` | `lgb`, `linear` | 모델 종류 |
+| `--model_name` | `str` | `lgbm` | `lgbm`, `linear` | 모델 종류 |
 | `--task_type` | `str` | `LA_multi` | `single`, `LA_multi` | TBN STRESS 또는 TBN LA STRESS |

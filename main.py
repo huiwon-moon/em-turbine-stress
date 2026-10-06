@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument('--random_state', type=int, default=42, help='seed')
 
     # 모델 정보
-    parser.add_argument('--model_name', type=str, default='lgb', choices=['lgb', 'linear'], help='모델 이름')
+    parser.add_argument('--model_name', type=str, default='lgbm', choices=['lgbm', 'linear'], help='모델 이름')
     parser.add_argument('--task_type', type=str, default='LA_multi', choices=['single', 'LA_multi'], help='TBN STRESS: 단일 모델 / TBN LA STRESS: 다중 예측 모델')
     parser.add_argument('--output_dir', type=str, default='results', help='성능 평가 저장 경로')
     
