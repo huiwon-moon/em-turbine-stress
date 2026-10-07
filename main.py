@@ -15,7 +15,7 @@ from src.visualization import save_startup_plots
 from config.columns import get_target_col
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Turbine Stress Multi-Horizon LightGBM Training Pipeline")
+    parser = argparse.ArgumentParser(description="Turbine Stress Pipeline")
     
     # 데이터 경로 지정
     parser.add_argument('--train_path', type=str, default='data/processed/train.csv', help='Train CSV 파일 경로')
